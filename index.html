@@ -1,0 +1,251 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    </head>
+    <body>
+        <!-- H O M E -->
+            <div class="Home" id="Home">
+                
+        <div class="nav">
+            <div class="logo">Fokir</div>
+            <div class="links">
+                <ul class="child1" >
+                    <li class="child3"><a href="#Home">Home</a></li>
+                    <li class="child3"><a href="#About">About</a></li>
+                    <li class="child3"><a href="#Services">Services</a></li>
+                    <li class="child3"><a href="#Portfolio">Portfolio</a></li>
+                    <li class="child3"><a href="#Testimonial">Testimonial</a></li>
+                    <li class="child3"><a href="#Blog">Blog</a></li>
+                    <li class="child3"><a href="#Contact">Contact</a></li>
+                    <li class="menu" onclick=showchild2()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+
+                </ul>
+                <ul class="child2" >
+                    <li onclick="hidechild2()"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Testimonial">Testimonial</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function showchild2(){
+                const child2 = document.querySelector('.child2')
+                child2.style.display = 'flex'
+            }
+            function hidechild2(){
+                const child2 = document.querySelector('.child2')
+                child2.style.display = 'none'
+            }
+        </script>
+        <div class="parent">
+            <div class="contant">
+                <h3>Hello i'm</h3>
+                <h1>ALEX SMITH</h1>
+                <p>Professional Web Designer</p>
+            </div>
+        </div>
+        </div>
+        <!-- A B O U T -->
+          <div class="About" id="About">
+            <div class="prof-img">
+                <div class="over">
+                <img src="./img/work-7.jpg" alt="">
+                <div class="layer">
+                   <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                </div>
+            </div>
+            <div class="prof-text">
+                <h2>HELLO,</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>-----------------------------------------------------------------------------------------</p>
+                <div class="inf">
+
+                    <div> <ul>
+                        <li>Name: Rdam smith</li>
+                        <li>Age: 26 Year</li>
+                        <li>Freelance: Available</li>
+                    </ul></div>
+                    <div><ul>
+                        <li>Job Title: UI/UX Designer</li>
+                        <li> Location: United States, US</li>
+                        <li>E-mail: example@gmail.com</li>
+                    </ul></div>    
+                </div>
+                <div class="files">
+                    <a class="cv" href="#">Download CV
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+                    <a class="hire" href="#contact">Hire Me
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+          
+          </div>
+                   <!-- O U R   S E R V I C E S -->
+         <div class="Our-Services" id="Services">
+            <div class="title">
+                <h2>Our Services</h2>
+            </div>
+            <div class="contant1">
+                <div class="d1">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h3>UI/UX DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                </div>
+                <div class="d2">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>APP DEVELOPMENT</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                </div>
+                <div class="d3">
+                    <i class="fa-solid fa-table-columns"></i>
+                    <h3>PRODUCT DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                </div>
+                <div class="d4">
+                    <i class="fa-solid fa-gears"></i>
+                    <h3>UI/UX DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+                </div>
+            </div>
+         </div>
+                    <!-- O U R    P O R T F O L I O -->
+                <div class="Portfolio" id="Portfolio">
+                    <div class="title2">
+                        <h2>Our Portfolio</h2>
+                    </div>
+                    <div class="button">
+                        <button><a class="all" href="#">ALL</a></button>
+                       <button><a href="#">GRAPHIC</a></button>
+                       <button><a href="#">WEB DESIGN</a></button>
+                       <button><a href="#">BRANDING</a></button>
+                    </div>
+                    <div class="img">
+                    <div class="img1"><img src="./img/1.jpg" alt=""></div>
+                    <div class="img2"><img src="./img/2.jpg" alt=""></div>
+                    <div class="img3"><img src="./img/3.jpg" alt=""></div>
+                    <div class="img4"><img src="./img/4.jpg" alt=""></div>
+                    <div class="img5"><img src="./img/5.jpg" alt=""></div>
+                    <div class="img6"><img src="./img/6.jpg" alt=""></div>
+        </div></div>
+                <!-- N U M B E R -->
+            <div class="number">
+                <div class="pe">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>200</h3>
+                    <h5>Team members</h5>
+                </div>
+                <div class="pa">
+                    <i class="fa-regular fa-file"></i>
+                    <h3>345</h3>
+                    <h5>Complete Projects</h5>
+                </div>
+                <div class="do">
+                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                    <h3>1800</h3>
+                    <h5>Files Downloaded</h5>
+                </div>
+                <div class="cu">
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <h3>1200</h3>
+                    <h5>Lines Of Code</h5>
+                </div>
+            </div>
+                    <!-- Client's Feedback -->
+            <div class="Testimonial" id="Testimonial">
+                <div class="title3">
+                    <h2>Client's Feedback</h2>
+                </div>
+                <div class="feedback">
+                    <div class="bourd">
+                    <img src="./img/3 (1).jpg" alt="">
+                    <div class="feedback-conant">
+                        <h3>Alex ander</h3>
+                        <h4><a href="#"><i class="fa-solid fa-location-dot"></i> United</a></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.</p>
+                        <div class="review">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                     </div>
+                </div>
+            </div>
+                     <!--B L O G -->
+            <div class="blog" id="Blog">
+                <div class="title4"><h2>Our Blog</h2></div>
+                <div class="sec">
+                <div class="web">
+                    <div class="photo"><img src="./img/1 (1).jpg" alt=""></div>
+                    <div class="text">
+                        23 November, 2015
+                    <h3><a href="#">Web Design Blog Post</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+                    <a href="#">READ MORE </a>
+                    </div>
+                </div>
+                <div class="vid">
+                    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/uVju5--RqtY?si=wP6j8NyTZNQbMYnp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div class="text2">
+                        20 April, 2018
+                    <h3><a href="#">Development Blog Post</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p> 
+
+                     <a href="#">READ MORE </a>
+                    </div>
+                </div>
+                <div class="full">
+                    <div class="photo2"><img src="./img/3 (2).jpg" alt=""></div>
+                    <div class="text3">
+                        17 May, 2017
+                    <h3><a href="#">Full Width Blog Post</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+
+                    <a href="#">READ MORE</a> 
+                    </div>
+                </div></div>
+            </div>
+            <!-- C O N T A C T     US -->
+            <div class="Contact-Us" id="Contact">
+            <div class="title5"><h2>Contact Us</h2></div>
+            <div class="input">
+                <form>
+                <div class="input2">
+                <input type="Name"  name="Name" placeholder="Name">
+                <input type="email"  name="email" placeholder="Email"></div>
+                <div class="input3">
+                <input type="subject" name="Subject" placeholder="subject">
+                <textarea name="message for me" cols="autoplay" rows="autoplay" placeholder="Message for me"></textarea>
+                <a class="send" href="#">SEND MESSAGE</a>
+            </div>
+            </form>
+            </div>
+            </div>
+            <div class="end">
+                <div class="ico">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="conclo">Copy Right 2018 © By <a href="#">Theme-fair</a>All Rights Reserved</div>
+            </div>
+            
+
+    </body>
+</html>
